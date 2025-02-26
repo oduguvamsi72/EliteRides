@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { VehicleCardComponent } from './vehicle-card/vehicle-card.component';
 import { HttpClientModule } from '@angular/common/http';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    VehicleCardComponent
+    VehicleCardComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

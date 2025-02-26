@@ -1,0 +1,6 @@
+<div class="vehicle-card">
+  <img [src]="vehicle.image" [alt]="vehicle.name">
+  <h3>{{ vehicle.name }}</h3>
+  <p>Price: <strong>{{ vehicle.price }}</strong></p>
+  <button (click)="bookNow()">Book Now</button>
+</div>

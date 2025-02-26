@@ -1,0 +1,102 @@
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-overlay">
+      <h1>Find Your Perfect Ride</h1>
+      <p>Rent bikes & cars at the best prices, anytime, anywhere</p>
+      <div class="search-bar">
+        <input type="text" placeholder="Enter location" />
+        <input type="date" />
+        <input type="date" />
+        <button>Search</button>
+      </div>
+    </div>
+  </section>
+  
+  <section class="categories">
+    <h2>Choose Your Ride</h2>
+    <p>Find the perfect vehicle for your journey.</p>
+    <div class="category-list">
+      <div class="category-card">
+        <img src="assets/ride/car1.webp" alt="Cars">
+        <h3>Cars</h3>
+        <p>Comfortable and spacious cars for every trip.</p>
+        <button class="category-btn">View More</button>
+      </div>
+      <div class="category-card">
+        <img src="assets/ride/bike.jpeg" alt="Bikes">
+        <h3>Bikes</h3>
+        <p>Ride freely with our well-maintained bikes.</p>
+        <button class="category-btn">View More</button>
+      </div>
+      <div class="category-card">
+        <img src="assets/ride/sccoty.webp" alt="Scooters">
+        <h3>Scooters</h3>
+        <p>Easy and affordable rides for city travel.</p>
+        <button class="category-btn">View More</button>
+      </div>
+      <div class="category-card">
+        <img src="assets/ride/car.jpeg" alt="Vans">
+        <h3>Vans</h3>
+        <p>Spacious vans for family and group travels.</p>
+        <button class="category-btn">View More</button>
+      </div>
+    </div>
+</section>
+
+  
+  <!-- Featured Vehicles -->
+  <section class="featured">
+    <h2>Popular Rentals</h2>
+    <p>Explore our most rented and highly rated vehicles.</p>
+    <div class="vehicle-grid">
+      <div class="vehicle-card" *ngFor="let vehicle of featuredVehicles">
+        <img [src]="vehicle.image" [alt]="vehicle.name">
+        <div class="vehicle-info">
+          <div class="vehicle-header">
+            <h3>{{ vehicle.name }}</h3>
+            <p class="price">{{ vehicle.price }}</p>
+          </div>
+          <div class="vehicle-details-divider"></div>
+          <div class="vehicle-details">
+            <div class="detail-item"><strong>Fuel:</strong> {{ vehicle.fuel }}</div>
+            <div class="detail-item"><strong>AC:</strong> {{ vehicle.ac }}</div>
+            <div class="detail-item"><strong>Seats:</strong> {{ vehicle.seats }}</div>
+            <div class="detail-item"><strong>Luggage:</strong> {{ vehicle.luggage }}</div>
+          </div>
+          <p class="transmission">Transmission: {{ vehicle.transmission }}</p>
+          <button (click)="bookVehicle(vehicle.name)">Book Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  
+  <!-- Why Choose Us -->
+  <section class="why-us">
+    <h2>Why Rent With EliteRides?</h2>
+    <div class="features">
+      <div class="feature-item">
+        <img src="assets/feature/Customer-Support3.jpg" alt="Support">
+        <h3>24/7 Support</h3>
+        <p>We’re always here to help you.</p>
+      </div>
+      <div class="feature-item">
+        <img src="assets/feature/Affordable Prices.webp" alt="Affordable Prices">
+        <h3>Affordable Prices</h3>
+        <p>Best rates in the market.</p>
+      </div>
+      <div class="feature-item">
+        <img src="assets/feature/easybooking.png" alt="Easy Booking">
+        <h3>Easy Booking</h3>
+        <p>Simple and fast process.</p>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Call to Action -->
+  <section class="cta">
+    <h2>Start Your Ride Today</h2>
+    <button (click)="bookRide()">Book Now</button>
+  </section>
+  

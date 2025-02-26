@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Toyota Camry",
+        "price": "₹2000/day",
+        "image": "assets/popularrents/Toyota Camry.jpeg",
+        "fuel": "Petrol",
+        "transmission": "Automatic",
+        "seats": 5,
+        "luggage": "Medium",
+        "ac": "Yes"
+    },
+    {
+        "name": "Royal Enfield",
+        "price": "₹800/day",
+        "image": "assets/popularrents/Royal Enfield.jpg",
+        "fuel": "Petrol",
+        "transmission": "Manual",
+        "seats": 2,
+        "luggage": "Small",
+        "ac": "No"
+    },
+    {
+        "name": "Yamaha Scooter",
+        "price": "₹500/day",
+        "image": "assets/popularrents/Yamaha Scooter.jpg",
+        "fuel": "Petrol",
+        "transmission": "Automatic",
+        "seats": 2,
+        "luggage": "Small",
+        "ac": "No"
+    },
+    {
+        "name": "Hyundai Creta",
+        "price": "₹2500/day",
+        "image": "assets/popularrents/novo.jpg",
+        "fuel": "Diesel",
+        "transmission": "Automatic",
+        "seats": 5,
+        "luggage": "Medium",
+        "ac": "Yes"
+    },
+    {
+        "name": "Toyota HiAce",
+        "price": "₹3500/day",
+        "image": "assets/popularrents/toyota.jpg",
+        "fuel": "Diesel",
+        "transmission": "Automatic",
+        "seats": 12,
+        "luggage": "Large",
+        "ac": "Yes"
+    },
+    {
+        "name": "Mercedes-Benz Sprinter",
+        "price": "₹4500/day",
+        "image": "assets/popularrents/mercedes.jpg",
+        "fuel": "Diesel",
+        "transmission": "Automatic",
+        "seats": 15,
+        "luggage": "Extra Large",
+        "ac": "Yes"
+    },
+    {
+        "name": "Maruti Suzuki Ertiga",
+        "price": "₹2800/day",
+        "image": "assets/popularrents/ertiga.jpeg",
+        "fuel": "Petrol",
+        "transmission": "Manual",
+        "seats": 7,
+        "luggage": "Medium",
+        "ac": "Yes"
+    },
+    {
+        "name": "Mahindra Bolero Camper",
+        "price": "₹3000/day",
+        "image": "assets/popularrents/Bolero_Camper.jpg",
+        "fuel": "Diesel",
+        "transmission": "Manual",
+        "seats": 5,
+        "luggage": "Large",
+        "ac": "No"
+    }
+]
